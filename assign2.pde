@@ -201,6 +201,11 @@ void keyPressed() {
       break;
   }
   }
+  if (frogX<=0){
+     frogX =0;
+     if (frogX>=608){
+     frogX=608;
+     
     if(key==ENTER /*still needs something*/){
       gameState = GAME_RUN;
       life=3;
