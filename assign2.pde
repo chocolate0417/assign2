@@ -185,7 +185,7 @@ void draw() {
   }
 }
 void keyPressed() {
-  if (key == CODED /*still needs something*/) {
+  if (key == CODED) {
     switch (keyCode) {
     case UP:
       frogY -=32;
@@ -198,7 +198,6 @@ void keyPressed() {
       break;
     case RIGHT:
       frogX +=32;
-      println(frogX);
       break;
     }
   }
