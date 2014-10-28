@@ -208,5 +208,11 @@ void keyPressed() {
     frogX = frogInitX;
     frogY = frogInitY;
   }
+   if (key==ENTER && gameState == GAME_WIN) {
+    gameState = GAME_RUN;
+    life=3;
+    frogX = frogInitX;
+    frogY = frogInitY;
+  }
 }
 
